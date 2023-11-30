@@ -1,0 +1,40 @@
+.box{
+    width: 100px;
+    /* height: 100px; */
+    border: 3px solid red;
+    font-size: 20px;
+    font-weight: 700;    
+}
+
+#box2{
+  flex-grow: 1;
+}
+#box3{
+  flex-grow: 1;
+}
+
+.container{
+    border: 3px solid black;
+    height: 300px;
+    display: flex;
+                                                  /* Horizontal Wrok Er Jonno Justify Content Use Kora Lage */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+
+                                                 /* Vertically Work Er Jonno Align Items Use Kora Lagbe */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    align-items: stretch;
+
+}
